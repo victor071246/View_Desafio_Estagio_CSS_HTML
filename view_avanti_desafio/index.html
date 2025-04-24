@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Avanti</title>
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/sections.css" />
+        <link rel="stylesheet" href="css/footer.css" />
+        <link rel="stylesheet" href="css/swiper.css" />
+        <link rel="stylesheet" href="css/menu.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght,YTLC@0,6..12,200..1000,540;1,6..12,200..1000,540&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+    </head>
+    <body>
+        <header class="header_mobile">
+            <div class="header_up">
+                <article>
+                    <strong
+                        >Ganhe
+                        <div class="destaque_roxo">R$10,00</div>
+                        de desconto no seu primeiro pedido.
+                    </strong>
+                </article>
+                <p><strong>Utilize o cupom </strong>DESCONTO10</p>
+            </div>
+            <div class="header_down">
+                <nav>
+                    <a class="menu_icon" href="#"
+                        ><img src="images/menu_icon.png"
+                    /></a>
+                    <a class="logo_icon"><img src="images/logo_icon.png" /></a>
+                    <a class="shop_icon" href="#"
+                        ><img src="images/shop_icon.png"
+                    /></a>
+                    <img
+                        class="blue_icon_number"
+                        src="images/blue_icon_number.png"
+                    />
+                </nav>
+                <div class="search-box">
+                    <input
+                        id="search_input_mobile"
+                        type="text"
+                        placeholder="Digite aqui o que você procura no celular"
+                    />
+                    <a href="#" onclick="buscarMobile(event)">
+                        <img src="images/lupa_icon.png" />
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <header class="header_pc">
+            <div class="header_up">
+                <article>
+                    <strong
+                        >Ganhe
+                        <div class="destaque_roxo">R$10,00</div>
+                        de desconto no seu primeiro pedido.
+                    </strong>
+                </article>
+                <p><strong>Utilize o cupom </strong>DESCONTO10</p>
+            </div>
+            <div class="sizable">
+                <div class="header_down">
+                    <div class="header_down_up_part">
+                        <img class="logo_icon" src="images/logo_icon.png" />
+                        <div class="search-box">
+                            <input
+                                id="search_input_desktop"
+                                type="text"
+                                placeholder="Digite aqui o que você procura"
+                            />
+                            <a href="#" onclick="buscarDesktop(event)">
+                                <img src="images/lupa_icon.png" />
+                            </a>
+                        </div>
+                        <a class="user_link"
+                            ><img
+                                class="user_icon"
+                                src="images/user_icon.png"
+                            />
+                            <div class="user_text">
+                                <span>Olá,</span><span>Nome cliente!</span>
+                            </div></a
+                        >
+                        <a
+                            ><img class="shop_icon" src="images/shop_icon.png"
+                        /></a>
+                        <img
+                            class="blue_icon_number"
+                            src="images/blue_icon_number.png"
+                        />
+                    </div>
+
+                    <nav class="menu-container">
+                        <ul class="main-menu">
+                            <li class="all-categories">
+                                <a href="#"
+                                    ><img src="images/menu_icon.png" />Todas as
+                                    categorias</a
+                                >
+                                <ul class="level-2">
+                                    <a href="#" class="level-2-li">
+                                        <li>Categoria</li>
+                                        <img src="images/arrow.png" />
+                                        <ul class="level-3">
+                                            <ul class="level-3-ul">
+                                                <ul>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                </ul>
+                                            </ul>
+                                            <ul class="level-3-ul">
+                                                <ul>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                </ul>
+                                            </ul>
+                                            <ul class="level-3-ul">
+                                                <ul>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                    <li class="level-4-li">
+                                                        Categoria
+                                                    </li>
+                                                </ul>
+                                            </ul>
+                                            <ul class="level-3-ul">
+                                                <img
+                                                    class="caneca"
+                                                    src="images/caneca_texto.png"
+                                                />
+                                            </ul>
+                                        </ul>
+                                    </a>
+                                    <a href="#" class="level-2-li">
+                                        <li>Categoria</li>
+                                        <img src="images/arrow.png" />
+                                    </a>
+                                    <a href="#" class="level-2-li">
+                                        <li>Categoria</li>
+                                        <img src="images/arrow.png" />
+                                    </a>
+                                    <a href="#" class="level-2-li">
+                                        <li>Categoria</li>
+                                        <img src="images/arrow.png" />
+                                    </a>
+                                    <a href="#" class="level-2-li">
+                                        <li>Categoria</li>
+                                        <img src="images/arrow.png" />
+                                    </a>
+                                    <a href="#" class="level-2-li">
+                                        <li>Categoria</li>
+                                        <img src="images/arrow.png" />
+                                    </a>
+                                    <a href="#" class="level-2-li">
+                                        <li>Categoria</li>
+                                        <img src="images/arrow.png" />
+                                    </a>
+                                    <a href="#" class="level-2-li">
+                                        <li>Categoria</li>
+                                        <img src="images/arrow.png" />
+                                    </a>
+                                    <a href="#" class="level-2-li">
+                                        <li>Categoria</li>
+                                        <img src="images/arrow.png" />
+                                    </a>
+                                    <a href="#" class="level-2-li">
+                                        <li>Categoria</li>
+                                        <img src="images/arrow.png" />
+                                    </a>
+                                    <a href="#" class="level-2-li">
+                                        <li>Categoria</li>
+                                        <img src="images/arrow.png" />
+                                    </a>
+                                </ul>
+                            </li>
+                            <li class="category">
+                                <a href="#">Categoria</a>
+                            </li>
+                            <li class="category">
+                                <a href="#">Categoria</a>
+                            </li>
+                            <li class="category">
+                                <a href="#">Categoria</a>
+                            </li>
+                            <li class="category">
+                                <a href="#">Categoria</a>
+                            </li>
+                            <li class="category">
+                                <a href="#">Categoria</a>
+                            </li>
+                            <li class="category">
+                                <a href="#">Categoria</a>
+                            </li>
+                            <li class="category">
+                                <a href="#">Categoria</a>
+                            </li>
+                            <li class="category">
+                                <a href="#">Categoria</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="main_image_background">
+                <container class="align_page_content">
+                    <img class="chair_image" src="images/chair_image.png" />
+                    <div class="offer_text">
+                        <span class="sale"><bold>SUPER</bold>SALE</span>
+                        <span class="blue_minor_text"
+                            >ITENS SELECIONADOS COM ATÉ</span
+                        >
+                        <span class="price">50%OFF</span>
+                    </div>
+                </container>
+            </div>
+            <div id="mobile-only" class="teste swiper swiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/swiper_mobile.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/swiper_mobile.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/swiper_mobile.png" />
+                    </div>
+                </div>
+                <div class="swiper-pagination swiper-pagination-1"></div>
+            </div>
+
+            <container class="swiper-new-offers">
+                <div class="swiper-new-offers-title">
+                    <span class="new-offers-text">Lançamentos</span
+                    ><span class="text-see-more"><a href="">Ver mais</a></span>
+                </div>
+                <div class="swiper swiper-2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <span class="new-product">NOVO</span>
+                            <img src="images/man.png" />
+                            <div class="swiper-text">
+                                <h3>
+                                    Lorem Ipsum Dolor Sit Amet Consectetuer
+                                    Adipiscing Elit
+                                </h3>
+                                <div class="older-price-offer">
+                                    <span class="older-price">R$ 100,00</span>
+                                    <span class="swider-offer">10% OFF</span>
+                                </div>
+                                <span class="new-price">R$79,90</span>
+                                <span class="subdivision-price"
+                                    >Ou em até <bold>10x de R$7,90</bold></span
+                                >
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <span class="new-product">NOVO</span>
+                            <img src="images/man.png" />
+                            <div class="swiper-text">
+                                <h3>
+                                    Lorem Ipsum Dolor Sit Amet Consectetuer
+                                    Adipiscing Elit
+                                </h3>
+                                <div class="older-price-offer">
+                                    <span class="older-price">R$ 100,00</span>
+                                    <span class="swider-offer">10% OFF</span>
+                                </div>
+                                <span class="new-price">R$79,90</span>
+                                <span class="subdivision-price"
+                                    >Ou em até <bold>10x de R$7,90</bold></span
+                                >
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <span class="new-product">NOVO</span>
+                            <img src="images/man.png" />
+                            <div class="swiper-text">
+                                <h3>
+                                    Lorem Ipsum Dolor Sit Amet Consectetuer
+                                    Adipiscing Elit
+                                </h3>
+                                <div class="older-price-offer">
+                                    <span class="older-price">R$ 100,00</span>
+                                    <span class="swider-offer">10% OFF</span>
+                                </div>
+                                <span class="new-price">R$79,90</span>
+                                <span class="subdivision-price"
+                                    >Ou em até <bold>10x de R$7,90</bold></span
+                                >
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <span class="new-product">NOVO</span>
+                            <img src="images/man.png" />
+                            <div class="swiper-text">
+                                <h3>
+                                    Lorem Ipsum Dolor Sit Amet Consectetuer
+                                    Adipiscing Elit
+                                </h3>
+                                <div class="older-price-offer">
+                                    <span class="older-price">R$ 100,00</span>
+                                    <span class="swider-offer">10% OFF</span>
+                                </div>
+                                <span class="new-price">R$79,90</span>
+                                <span class="subdivision-price"
+                                    >Ou em até <bold>10x de R$7,90</bold></span
+                                >
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <span class="new-product">NOVO</span>
+                            <img src="images/man.png" />
+                            <div class="swiper-text">
+                                <h3>
+                                    Lorem Ipsum Dolor Sit Amet Consectetuer
+                                    Adipiscing Elit
+                                </h3>
+                                <div class="older-price-offer">
+                                    <span class="older-price">R$ 100,00</span>
+                                    <span class="swider-offer">10% OFF</span>
+                                </div>
+                                <span class="new-price">R$79,90</span>
+                                <span class="subdivision-price"
+                                    >Ou em até <bold>10x de R$7,90</bold></span
+                                >
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <span class="new-product">NOVO</span>
+                            <img src="images/man.png" />
+                            <div class="swiper-text">
+                                <h3>
+                                    Lorem Ipsum Dolor Sit Amet Consectetuer
+                                    Adipiscing Elit
+                                </h3>
+                                <div class="older-price-offer">
+                                    <span class="older-price">R$ 100,00</span>
+                                    <span class="swider-offer">10% OFF</span>
+                                </div>
+                                <span class="new-price">R$79,90</span>
+                                <span class="subdivision-price"
+                                    >Ou em até <bold>10x de R$7,90</bold></span
+                                >
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination swiper-pagination-2"></div>
+                    <div class="swiper-button-next-custom"></div>
+                    <div class="swiper-button-prev-custom"></div>
+                </div>
+            </container>
+            <section class="section-1">
+                <container class="align_page_content">
+                    <img src="images/imagem_1.png" />
+                    <div class="section-text">
+                        <h2>LOREM IPSUM</h2>
+                        <p class="mobile-p">
+                            Aenean massa. Cum sociis natoque penatibus et magnis
+                            dis parturient montes, nascetur ridiculus mus. Donec
+                            quam felis, ultricies nec, pellentesque eu, pretium
+                            quis, sem. Nulla consequat massa quis enim.
+                            <br /><br />
+                            Cras dignissim est et pellentesque tincidunt.
+                            Praesent bibendum quis velit a aliquam. Ut
+                            vestibulum turpis eget mi iaculis ullamcorper.
+                            Curabitur nec metus sed tortor sollicitudin porta
+                            nec eu enim. Ut fermentum scelerisque tortor mollis
+                            volutpat. Mauris iaculis magna nisl, vel porttitor
+                            augue placerat et.
+                        </p>
+                        <p class="desktop-p">
+                            Duis consectetur metus nec lacus auctor dignissim.
+                            Mauris vitae finibus dui. Mauris laoreet lacus ut
+                            eleifend viverra. Cras efficitur volutpat dui, in
+                            lobortis metus lacinia sit amet. Sed lacinia
+                            pharetra magna, vel pulvinar ligula hendrerit a.
+                            Maecenas fringilla porttitor tortor eget lacinia.
+                            Donec sollicitudin euismod orci, auctor fringilla
+                            magna consequat interdum. Fusce sagittis elit a
+                            libero commodo egestas efficitur id augue.
+                            <br /><br />
+                            Duis consectetur metus nec lacus auctor dignissim.
+                            Mauris vitae finibus dui. Mauris laoreet lacus ut
+                            eleifend viverra. Cras efficitur volutpat dui, in
+                            lobortis metus lacinia sit amet. Sed lacinia
+                            pharetra magna, vel pulvinar ligula hendrerit a.
+                            Maecenas fringilla porttitor tortor eget lacinia.
+                            Donec sollicitudin euismod orci, auctor fringilla
+                            magna consequat interdum. Fusce sagittis elit a
+                            libero commodo egestas efficitur id augue.
+                        </p>
+                    </div>
+                </container>
+            </section>
+            <section class="section-2">
+                <container class="align_page_content">
+                    <div class="section-2-content">
+                        <img src="images/second_banner.png" />
+
+                        <div class="section-2-text-content">
+                            <h2>LOREM IPSUM</h2>
+                            <div class="section-2-p-content">
+                                <img src="images/Icon_circle.png" />
+                                <p>
+                                    Aenean massa. Cum sociis natoque penatibus
+                                    et magnis dis parturient montes, nascetur
+                                    ridiculus mus. Donec quam felis, ultricies
+                                    nec, pellentesque eu, pretium quis, sem.
+                                </p>
+                            </div>
+                            <div class="section-2-p-content">
+                                <img src="images/Icon_circle.png" />
+                                <p>
+                                    Aenean massa. Cum sociis natoque penatibus
+                                    et magnis dis parturient montes, nascetur
+                                    ridiculus mus. Donec quam felis, ultricies
+                                    nec, pellentesque eu, pretium quis, sem.
+                                </p>
+                            </div>
+                            <div class="section-2-p-content">
+                                <img src="images/Icon_circle.png" />
+                                <p>
+                                    Aenean massa. Cum sociis natoque penatibus
+                                    et magnis dis parturient montes, nascetur
+                                    ridiculus mus. Donec quam felis, ultricies
+                                    nec, pellentesque eu, pretium quis, sem.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </container>
+            </section>
+            <section class="section-1">
+                <container class="align_page_content">
+                    <img src="images/imagem_1.png" />
+                    <div class="section-text">
+                        <h2>LOREM IPSUM</h2>
+                        <p class="mobile-p">
+                            Aenean massa. Cum sociis natoque penatibus et magnis
+                            dis parturient montes, nascetur ridiculus mus. Donec
+                            quam felis, ultricies nec, pellentesque eu, pretium
+                            quis, sem. Nulla consequat massa quis enim.
+                            <br /><br />
+                            Cras dignissim est et pellentesque tincidunt.
+                            Praesent bibendum quis velit a aliquam. Ut
+                            vestibulum turpis eget mi iaculis ullamcorper.
+                            Curabitur nec metus sed tortor sollicitudin porta
+                            nec eu enim. Ut fermentum scelerisque tortor mollis
+                            volutpat. Mauris iaculis magna nisl, vel porttitor
+                            augue placerat et.
+                        </p>
+                        <p class="desktop-p">
+                            Duis consectetur metus nec lacus auctor dignissim.
+                            Mauris vitae finibus dui. Mauris laoreet lacus ut
+                            eleifend viverra. Cras efficitur volutpat dui, in
+                            lobortis metus lacinia sit amet. Sed lacinia
+                            pharetra magna, vel pulvinar ligula hendrerit a.
+                            Maecenas fringilla porttitor tortor eget lacinia.
+                            Donec sollicitudin euismod orci, auctor fringilla
+                            magna consequat interdum. Fusce sagittis elit a
+                            libero commodo egestas efficitur id augue.
+                            <br /><br />
+                            Duis consectetur metus nec lacus auctor dignissim.
+                            Mauris vitae finibus dui. Mauris laoreet lacus ut
+                            eleifend viverra. Cras efficitur volutpat dui, in
+                            lobortis metus lacinia sit amet. Sed lacinia
+                            pharetra magna, vel pulvinar ligula hendrerit a.
+                            Maecenas fringilla porttitor tortor eget lacinia.
+                            Donec sollicitudin euismod orci, auctor fringilla
+                            magna consequat interdum. Fusce sagittis elit a
+                            libero commodo egestas efficitur id augue.
+                        </p>
+                    </div>
+                </container>
+            </section>
+            <container id="swiper-2-pc" class="swiper-new-offers">
+                <div class="swiper-new-offers-title">
+                    <span class="new-offers-text">Lançamentos</span
+                    ><span class="text-see-more"><a href="">Ver mais</a></span>
+                </div>
+                <div class="swiper swiper-2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <span class="new-product">NOVO</span>
+                            <img src="images/man.png" />
+                            <div class="swiper-text">
+                                <h3>
+                                    Lorem Ipsum Dolor Sit Amet Consectetuer
+                                    Adipiscing Elit
+                                </h3>
+                                <div class="older-price-offer">
+                                    <span class="older-price">R$ 100,00</span>
+                                    <span class="swider-offer">10% OFF</span>
+                                </div>
+                                <span class="new-price">R$79,90</span>
+                                <span class="subdivision-price"
+                                    >Ou em até <bold>10x de R$7,90</bold></span
+                                >
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <span class="new-product">NOVO</span>
+                            <img src="images/man.png" />
+                            <div class="swiper-text">
+                                <h3>
+                                    Lorem Ipsum Dolor Sit Amet Consectetuer
+                                    Adipiscing Elit
+                                </h3>
+                                <div class="older-price-offer">
+                                    <span class="older-price">R$ 100,00</span>
+                                    <span class="swider-offer">10% OFF</span>
+                                </div>
+                                <span class="new-price">R$79,90</span>
+                                <span class="subdivision-price"
+                                    >Ou em até <bold>10x de R$7,90</bold></span
+                                >
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <span class="new-product">NOVO</span>
+                            <img src="images/man.png" />
+                            <div class="swiper-text">
+                                <h3>
+                                    Lorem Ipsum Dolor Sit Amet Consectetuer
+                                    Adipiscing Elit
+                                </h3>
+                                <div class="older-price-offer">
+                                    <span class="older-price">R$ 100,00</span>
+                                    <span class="swider-offer">10% OFF</span>
+                                </div>
+                                <span class="new-price">R$79,90</span>
+                                <span class="subdivision-price"
+                                    >Ou em até <bold>10x de R$7,90</bold></span
+                                >
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <span class="new-product">NOVO</span>
+                            <img src="images/man.png" />
+                            <div class="swiper-text">
+                                <h3>
+                                    Lorem Ipsum Dolor Sit Amet Consectetuer
+                                    Adipiscing Elit
+                                </h3>
+                                <div class="older-price-offer">
+                                    <span class="older-price">R$ 100,00</span>
+                                    <span class="swider-offer">10% OFF</span>
+                                </div>
+                                <span class="new-price">R$79,90</span>
+                                <span class="subdivision-price"
+                                    >Ou em até <bold>10x de R$7,90</bold></span
+                                >
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <span class="new-product">NOVO</span>
+                            <img src="images/man.png" />
+                            <div class="swiper-text">
+                                <h3>
+                                    Lorem Ipsum Dolor Sit Amet Consectetuer
+                                    Adipiscing Elit
+                                </h3>
+                                <div class="older-price-offer">
+                                    <span class="older-price">R$ 100,00</span>
+                                    <span class="swider-offer">10% OFF</span>
+                                </div>
+                                <span class="new-price">R$79,90</span>
+                                <span class="subdivision-price"
+                                    >Ou em até <bold>10x de R$7,90</bold></span
+                                >
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <span class="new-product">NOVO</span>
+                            <img src="images/man.png" />
+                            <div class="swiper-text">
+                                <h3>
+                                    Lorem Ipsum Dolor Sit Amet Consectetuer
+                                    Adipiscing Elit
+                                </h3>
+                                <div class="older-price-offer">
+                                    <span class="older-price">R$ 100,00</span>
+                                    <span class="swider-offer">10% OFF</span>
+                                </div>
+                                <span class="new-price">R$79,90</span>
+                                <span class="subdivision-price"
+                                    >Ou em até <bold>10x de R$7,90</bold></span
+                                >
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination swiper-pagination-2"></div>
+                    <div class="swiper-button-next-custom"></div>
+                    <div class="swiper-button-prev-custom"></div>
+                </div>
+            </container>
+            <section class="section-3">
+                <img id="img-logo-grande-cel" src="images/section_3.png" />
+                <img
+                    id="img-logo-grande-pc"
+                    src="images/logo_secao_maior.png"
+                />
+            </section>
+            <section class="section-4">
+                <h3>
+                    Cadastre-se na nossa
+                    <span id="blue-text">nesletter</span>
+                </h3>
+                <form class="sign-up">
+                    <input
+                        class="input-box"
+                        type="text"
+                        placeholder="Digite seu nome"
+                    />
+                    <input
+                        class="input-box"
+                        type="email"
+                        placeholder="Digite seu e-mail"
+                    />
+                    <span id="check-box-sign-up">
+                        <input type="checkbox" name="" id="" /> Estou de acordo
+                        com a Política de Privacidade
+                    </span>
+                    <button>Cadastrar</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-desktop">
+                <div class="logo_and_icons">
+                    <div class="logo"><img src="images/logo_icon.png" /></div>
+                    <div class="icons">
+                        <a><img src="images/instagram.png" /></a>
+                        <a><img src="images/facebook.png" /></a>
+                        <a><img src="images/youtube-logo.png" /></a>
+                        <a><img src="images/logo-tiktok-svgrepo-com.png" /></a>
+                    </div>
+                </div>
+                <div class="channels">
+                    <hr />
+                    <span class="channel">
+                        <h4>Institucional</h4>
+                        <ul>
+                            <li>Sobre Nós</li>
+                            <li>Nossas Lojas</li>
+                            <li>Privacidade e Segurança</li>
+                            <li>Termos e Condições</li>
+                        </ul>
+                        <a href=""><img src="images/seta.png" /></a>
+                    </span>
+                    <hr />
+                    <span class="channel">
+                        <h4>Central de ajuda</h4>
+                        <ul>
+                            <li>Fale Conosco</li>
+                            <li>Frete e Entrega</li>
+                            <li>Trocas e Devoluções</li>
+                            <li>Formas de Pagamento</li>
+                            <li>FAQ</li>
+                        </ul>
+                        <a href=""><img src="images/seta.png" /></a>
+                    </span>
+                    <hr />
+                    <span class="channel">
+                        <h4>Atendimento</h4>
+                        <ul>
+                            <li class="support">
+                                <bold>Telefone: </bold>(00) 1234-5678
+                            </li>
+                            <li class="support">
+                                <bold>E-mail: </bold>exemplo@exemplo.com.br
+                            </li>
+                            <li class="support">
+                                <bold>Horário de atendimento:</bold>
+                            </li>
+                            <li class="tel-text">
+                                Segundo a Sábado: 07h00 às 23h00
+                            </li>
+                            <li class="tel-text">
+                                Domingos e Feriados: 07h00 às 21h00
+                            </li>
+                        </ul>
+                        <a href=""><img src="images/seta.png" /></a>
+                    </span>
+                    <hr />
+                </div>
+            </div>
+            <div class="brands-1">
+                <img class="brands-1-img-cel" src="images/cartao.png" /><img
+                    class="brands-1-img-desktop"
+                    src="images/visa_etc.png"
+                />
+            </div>
+            <div class="brands-2">
+                <p class="brands-2-p-cel">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci.
+                </p>
+                <p class="brands-2-p-desktop">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat. Duis autem vel eum
+                    iriure dolor in hendrerit in vulputate velit esse molestie
+                    consequat, vel illum dolore eu feugiat nulla facilisis at
+                    vero eros et accumsan et iusto odio dignissim qui blandit
+                    praesent luptatum zzril delenit augue duis dolore te feugait
+                    nulla facilisi.
+                </p>
+
+                <img src="images/marcas_vtex.png" />
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="js/swiper.js"></script>
+        <script src="js/input.js"></script>
+    </body>
+</html>

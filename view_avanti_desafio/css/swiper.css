@@ -1,0 +1,248 @@
+/* Swiper 1 visível só no mobile */
+
+#mobile-only {
+    display: block;
+}
+.swiper-slide,
+.swiper-container,
+.swiper-wrapper {
+    position: relative;
+    left: 0px;
+    background-color: white;
+}
+
+/* Tamanhos controlados por CSS */
+.swiper-1 {
+    width: 100%;
+    height: 306px; /* ou autoHeight via JS */
+    display: none;
+}
+.swiper-2 {
+    width: 380px;
+    height: 450px;
+}
+
+.swiper-2 .swiper-slide {
+    left: -1;
+    flex-direction: column;
+    align-items: center;
+    width: 390px;
+    height: 365px; /* Altura do card */
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    border-radius: 10px;
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.2); /* X, Y, blur, spread */
+    padding: 12px 8px;
+    gap: 5px;
+}
+.swiper-2 .swiper-slide img {
+    margin-top: 30px;
+    width: 158px;
+    height: 158px;
+}
+.swiper-pagination-bullet {
+    background-color: #838383; /* Cor da bolinha inativa */
+}
+.swiper-pagination-bullet-active {
+    background-color: #303030; /* Cor da bolinha ativa */
+}
+
+/* estilo card */
+
+.swiper-new-offers-title {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    margin: 56px 12px 12px 12px;
+}
+.new-offers-text {
+    font-weight: 700;
+    font-size: 18px;
+}
+.text-see-more a {
+    font-size: 16px;
+    color: black;
+}
+.swiper-new-offers {
+    display: flex;
+    flex-direction: column;
+}
+.swiper-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 8px;
+    margin-bottom: 12px;
+}
+.new-product {
+    text-align: left;
+    position: absolute;
+    z-index: 2;
+    top: 12px;
+    left: 8px;
+    padding: 1px 6px;
+    font-weight: 600;
+    background-color: #00264e;
+    color: white;
+    border-radius: 4px;
+}
+.swiper-text h3 {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.older-price-offer {
+    display: flex;
+}
+.older-price {
+    text-decoration: line-through;
+    font-size: 12px;
+    font-weight: 300;
+    left: 0;
+    margin-right: 20px;
+}
+.swider-offer {
+    background-color: #5ec0be;
+    padding: 4px 8px;
+    color: white;
+    font-size: 11px;
+    border-radius: 4px;
+}
+.new-price {
+    position: relative;
+    text-align: left;
+    left: 0;
+    top: -10px;
+    font-weight: 700;
+    z-index: 2;
+    margin-bottom: 0px;
+}
+.subdivision-price {
+    margin-top: 0px;
+    text-align: left;
+    left: -70px;
+    font-size: 12px;
+}
+.subdivision-price bold {
+    font-weight: 700;
+}
+.swiper-text button {
+    margin-top: 8px;
+    font-size: 14px;
+    color: white;
+    padding: 10px 50.5px;
+    border: none;
+    background-color: #005cff;
+    font-weight: 700;
+    border-radius: 8px;
+    bottom: 0;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    display: none !important; /* Remove os botões originais do Swiper */
+}
+.swiper-button-prev-custom,
+.swiper-button-next-custom {
+    display: none;
+}
+
+/* Estilo para os botões personalizados */
+
+.swiper-button-next-custom {
+    position: absolute;
+    top: 30%;
+    left: 97%;
+    transform: translateY(-50%); /* Centraliza verticalmente */
+    width: 40px; /* Largura do botão */
+    height: 40px; /* Altura do botão */
+
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 10; /* Garante que o botão fique acima do conteúdo */
+    background-image: url('../images/botao_direita.png');
+    background-size: cover;
+    background-position: center;
+}
+.swiper-button-prev-custom {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    transform: translateY(-50%); /* Centraliza verticalmente */
+    width: 40px; /* Largura do botão */
+    height: 40px; /* Altura do botão */
+
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 10; /* Garante que o botão fique acima do conteúdo */
+    background-image: url('../images/botao_esquerda.png');
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width: 391px) {
+    #mobile-only {
+        display: none;
+    }
+    div.mobile-only {
+        display: block !important;
+    }
+    .new-offers-text {
+        font-style: bold;
+        font-size: 22px;
+    }
+    .swiper-new-offers-title {
+        padding-bottom: 19px;
+    }
+    .swiper-new-offers {
+        margin: 0px auto 70px auto;
+        padding: 20px 15px;
+        width: 1288px;
+    }
+    .swiper-2 {
+        width: 1250px;
+        height: 450px;
+    }
+    .swiper-slide {
+        flex-direction: column;
+        align-items: center;
+        width: 238px;
+        height: 450px; /* Altura do card */
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        margin: 0px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #dddddd;
+        border-radius: 10px;
+        box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.2); /* X, Y, blur, spread */
+        padding: 12px 8px;
+        flex-shrink: 0; /* Impede que o slide encolha */
+        flex-grow: 0; /* Impede que o slide cresça */
+    }
+    .swiper-2 .swiper-slide img {
+        width: 180px;
+        height: 200px;
+    }
+
+    .swiper-button-next {
+        right: 10px; /* Afastar o botão da borda direita */
+    }
+
+    .swiper-button-prev {
+        left: 10px; /* Afastar o botão da borda esquerda */
+    }
+    .swiper-button-prev-custom,
+    .swiper-button-next-custom {
+        display: block;
+    }
+}

@@ -1,0 +1,165 @@
+footer {
+    margin-top: 81px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.logo_and_icons {
+    width: 194px;
+    height: 93px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 98px 48px 98px;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.channels {
+    width: 100%;
+}
+
+.channel {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 700;
+}
+.channel img {
+    width: 12px;
+    height: 8px;
+}
+hr {
+    border: none;
+    border-top: 2px solid #dddddd;
+}
+.brands-1 {
+    width: 288px;
+    height: 64px;
+    margin: 48px auto 40px auto;
+}
+.brands-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.brands-2 p {
+    color: #303030;
+    margin: 40px 16px;
+    font-size: 12px;
+}
+.brands-2 img {
+    width: 295px;
+    height: 32px;
+    margin: 0px auto 15px auto;
+}
+.brands-1-img-desktop {
+    display: none;
+}
+.brands-1-img-cel {
+    display: block;
+}
+.brands-2-p-desktop {
+    display: none;
+}
+.channel ul {
+    display: none;
+}
+
+@media (min-width: 391px) {
+    .logo_and_icons {
+        margin: 5px 0px 0px 0px;
+        position: relative;
+        padding: 0;
+        left: -30px;
+    }
+    .footer-desktop {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+    }
+    .channels {
+        display: flex;
+        flex-direction: row;
+        margin-left: 142px;
+        justify-content: space-between;
+        gap: 110px;
+    }
+    .channel {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: start;
+    }
+    .channel h4 {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .channel ul {
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        margin-top: 11px;
+        font-size: 14px;
+        font-weight: 500;
+        height: 100%;
+        color: #707070;
+        gap: 8px;
+    }
+    .channel img {
+        display: none;
+    }
+    .channel ul {
+        display: block;
+    }
+    .brands-1-img-desktop {
+        display: block;
+    }
+    .brands-1-img-cel {
+        display: none;
+    }
+    hr {
+        display: none;
+    }
+    .support bold {
+        font-weight: 800;
+    }
+    .tel-text {
+        color: black;
+    }
+    .brands-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 64px auto;
+    }
+    .brands-2-p-cel {
+        display: none;
+    }
+    .brands-2 {
+        text-align: center;
+        width: 100%; /* Para a div ocupar toda a largura */
+        max-width: 1074px;
+        justify-content: center;
+    }
+    .brands-2-p {
+        text-align: center;
+    }
+    .brands-2-p-desktop {
+        margin-top: 104px;
+        display: block;
+    }
+    .brands-2-img {
+        margin: 40px auto 63px auto;
+    }
+}
