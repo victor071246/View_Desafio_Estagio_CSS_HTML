@@ -11,6 +11,9 @@
     justify-content: space-between;
     width: 100%;
 }
+.category a:hover {
+    color: #005cff;
+}
 .all-categories a img {
     width: 14px;
     height: 10px;

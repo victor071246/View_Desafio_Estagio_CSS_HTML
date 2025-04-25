@@ -146,6 +146,9 @@ nav {
         display: flex;
         align-items: center;
     }
+    .user_link:hover {
+        color: #005cff;
+    }
     .user_icon {
         width: 20.57px;
         height: 24px;
