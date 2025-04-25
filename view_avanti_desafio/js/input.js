@@ -11,7 +11,7 @@ function buscarDesktop(event) {
         console.log('Valor buscado no desktop:', inputDesktop.value);
         let valorDigitado = inputDesktop.value;
         inputDesktop.value = `Você procurou por ${valorDigitado}`;
-        // Aqui você pode adicionar a lógica para realizar a busca no desktop
+        //lógica para realizar a busca no desktop
     } else {
         console.log('Input de desktop não encontrado');
     }
@@ -28,7 +28,7 @@ function buscarMobile(event) {
         console.log('Valor buscado no celular:', inputMobile.value);
         let valorDigitado = inputMobile.value;
         inputMobile.value = `Você procurou por ${valorDigitado}`;
-        // Aqui você pode adicionar a lógica para realizar a busca no celular
+        //lógica para realizar a busca no celular
     } else {
         console.log('Input de celular não encontrado');
     }

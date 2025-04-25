@@ -5,6 +5,10 @@ const swiper2 = new Swiper('.swiper-2', {
         el: '.swiper-pagination-2',
         clickable: true,
     },
+    navigation: {
+        nextEl: '.swiper-button-next-custom', // Usando o botão customizado
+        prevEl: '.swiper-button-prev-custom', // Usando o botão customizado
+    },
     breakpoints: {
         390: {
             slidesPerView: 2,
@@ -13,10 +17,6 @@ const swiper2 = new Swiper('.swiper-2', {
         1024: {
             slidesPerView: 5,
             spaceBetween: 17,
-            navigation: {
-                nextEl: '.swiper-button-next-custom', // Usando o botão customizado
-                prevEl: '.swiper-button-prev-custom', // Usando o botão customizado
-            },
         },
     },
 });
